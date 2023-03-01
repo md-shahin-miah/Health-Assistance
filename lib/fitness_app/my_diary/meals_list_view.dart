@@ -104,7 +104,7 @@ class MealsView extends StatelessWidget {
             transform: Matrix4.translationValues(
                 100 * (1.0 - animation!.value), 0.0, 0.0),
             child: SizedBox(
-              width: 130,
+              width: 140,
               child: Stack(
                 children: <Widget>[
                   Padding(
@@ -130,8 +130,8 @@ class MealsView extends StatelessWidget {
                         borderRadius: const BorderRadius.only(
                           bottomRight: Radius.circular(8.0),
                           bottomLeft: Radius.circular(8.0),
-                          topLeft: Radius.circular(8.0),
-                          topRight: Radius.circular(54.0),
+                          topLeft: Radius.circular(64.0),
+                          topRight: Radius.circular(8.0),
                         ),
                       ),
                       child: Padding(
@@ -235,7 +235,7 @@ class MealsView extends StatelessWidget {
                   ),
                   Positioned(
                     top: 0,
-                    left: 0,
+                    right: 8,
                     child: Container(
                       width: 84,
                       height: 84,
@@ -247,7 +247,7 @@ class MealsView extends StatelessWidget {
                   ),
                   Positioned(
                     top: 0,
-                    left: 8,
+                    right: 8,
                     child: SizedBox(
                       width: 80,
                       height: 80,

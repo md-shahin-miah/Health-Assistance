@@ -74,7 +74,7 @@ class CenterNextButton extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(
                         8 + 32 * (1 - signUpMoveAnimation.value)),
-                    color: Color(0xff132137),
+                    color: Colors.deepOrange,
                   ),
                   child: PageTransitionSwitcher(
                     duration: Duration(milliseconds: 480),
@@ -188,7 +188,7 @@ class CenterNextButton extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(32),
                   color: _selectedIndex == i
-                      ? Color(0xff132137)
+                      ? Colors.deepOrange
                       : Color(0xffE3E4E4),
                 ),
                 width: 10,

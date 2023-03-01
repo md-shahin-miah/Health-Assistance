@@ -22,7 +22,7 @@ class CareView extends StatelessWidget {
         Tween<Offset>(begin: Offset(0, 0), end: Offset(-1, 0))
             .animate(CurvedAnimation(
       parent: animationController,
-      curve: Interval(
+      curve: const Interval(
         0.4,
         0.6,
         curve: Curves.fastOutSlowIn,
@@ -32,7 +32,7 @@ class CareView extends StatelessWidget {
         Tween<Offset>(begin: Offset(2, 0), end: Offset(0, 0))
             .animate(CurvedAnimation(
       parent: animationController,
-      curve: Interval(
+      curve: const Interval(
         0.2,
         0.4,
         curve: Curves.fastOutSlowIn,
@@ -42,7 +42,7 @@ class CareView extends StatelessWidget {
         Tween<Offset>(begin: Offset(0, 0), end: Offset(-2, 0))
             .animate(CurvedAnimation(
       parent: animationController,
-      curve: Interval(
+      curve: const Interval(
         0.4,
         0.6,
         curve: Curves.fastOutSlowIn,
@@ -53,7 +53,7 @@ class CareView extends StatelessWidget {
         Tween<Offset>(begin: Offset(4, 0), end: Offset(0, 0))
             .animate(CurvedAnimation(
       parent: animationController,
-      curve: Interval(
+      curve: const Interval(
         0.2,
         0.4,
         curve: Curves.fastOutSlowIn,
@@ -63,7 +63,7 @@ class CareView extends StatelessWidget {
         Tween<Offset>(begin: Offset(0, 0), end: Offset(-4, 0))
             .animate(CurvedAnimation(
       parent: animationController,
-      curve: Interval(
+      curve: const Interval(
         0.4,
         0.6,
         curve: Curves.fastOutSlowIn,
@@ -96,14 +96,14 @@ class CareView extends StatelessWidget {
                 position: _relaxFirstHalfAnimation,
                 child: SlideTransition(
                   position: _relaxSecondHalfAnimation,
-                  child: Text(
+                  child: const Text(
                     "Care",
                     style:
                         TextStyle(fontSize: 26.0, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
-              Padding(
+              const Padding(
                 padding:
                     EdgeInsets.only(left: 64, right: 64, bottom: 16, top: 16),
                 child: Text(

@@ -62,7 +62,7 @@ class MediterranesnDietView extends StatelessWidget {
                                         decoration: BoxDecoration(
                                           color: HexColor('#87A0E5')
                                               .withOpacity(0.5),
-                                          borderRadius: BorderRadius.all(
+                                          borderRadius: const BorderRadius.all(
                                               Radius.circular(4.0)),
                                         ),
                                       ),
@@ -108,7 +108,7 @@ class MediterranesnDietView extends StatelessWidget {
                                                       const EdgeInsets.only(
                                                           left: 4, bottom: 3),
                                                   child: Text(
-                                                    '${(1127 * animation!.value).toInt()}',
+                                                    '${(1024 * animation!.value).toInt()}',
                                                     textAlign: TextAlign.center,
                                                     style: const TextStyle(
                                                       fontFamily:
@@ -207,7 +207,7 @@ class MediterranesnDietView extends StatelessWidget {
                                                       const EdgeInsets.only(
                                                           left: 4, bottom: 3),
                                                   child: Text(
-                                                    '${(102 * animation!.value).toInt()}',
+                                                    '${(107 * animation!.value).toInt()}',
                                                     textAlign: TextAlign.center,
                                                     style: const TextStyle(
                                                       fontFamily:
@@ -272,7 +272,7 @@ class MediterranesnDietView extends StatelessWidget {
                                         border: Border.all(
                                             width: 4,
                                             color: FitnessAppTheme
-                                                .nearlyDarkBlue
+                                            .nearlyBlue
                                                 .withOpacity(0.2)),
                                       ),
                                       child: Column(
@@ -282,7 +282,7 @@ class MediterranesnDietView extends StatelessWidget {
                                             CrossAxisAlignment.center,
                                         children: <Widget>[
                                           Text(
-                                            '${(1503 * animation!.value).toInt()}',
+                                            '${(1601 * animation!.value).toInt()}',
                                             textAlign: TextAlign.center,
                                             style: const TextStyle(
                                               fontFamily:
@@ -375,7 +375,7 @@ class MediterranesnDietView extends StatelessWidget {
                                     width: 70,
                                     decoration: BoxDecoration(
                                       color:
-                                          HexColor('#87A0E5').withOpacity(0.2),
+                                          HexColor('#2AAA4F').withOpacity(0.2),
                                       borderRadius: const BorderRadius.all(
                                           Radius.circular(4.0)),
                                     ),
@@ -386,8 +386,8 @@ class MediterranesnDietView extends StatelessWidget {
                                           height: 4,
                                           decoration: BoxDecoration(
                                             gradient: LinearGradient(colors: [
-                                              HexColor('#87A0E5'),
-                                              HexColor('#87A0E5')
+                                              HexColor('#21883F'),
+                                              HexColor('#2AAA4F')
                                                   .withOpacity(0.5),
                                             ]),
                                             borderRadius: const BorderRadius.all(
@@ -401,7 +401,7 @@ class MediterranesnDietView extends StatelessWidget {
                                 Padding(
                                   padding: const EdgeInsets.only(top: 6),
                                   child: Text(
-                                    '12g left',
+                                    '16g left',
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                       fontFamily: FitnessAppTheme.fontName,
@@ -470,7 +470,7 @@ class MediterranesnDietView extends StatelessWidget {
                                     Padding(
                                       padding: const EdgeInsets.only(top: 6),
                                       child: Text(
-                                        '30g left',
+                                        '23g left',
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
                                           fontFamily: FitnessAppTheme.fontName,
@@ -541,7 +541,7 @@ class MediterranesnDietView extends StatelessWidget {
                                     Padding(
                                       padding: const EdgeInsets.only(top: 6),
                                       child: Text(
-                                        '10g left',
+                                        '15g left',
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
                                           fontFamily: FitnessAppTheme.fontName,

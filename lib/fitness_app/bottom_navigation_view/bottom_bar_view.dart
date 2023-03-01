@@ -141,10 +141,10 @@ class _BottomBarViewState extends State<BottomBarView>
                       // alignment: Alignment.center,s
                       decoration: BoxDecoration(
                         color: FitnessAppTheme.nearlyDarkBlue,
-                        gradient: LinearGradient(
+                        gradient: const LinearGradient(
                             colors: [
                               FitnessAppTheme.nearlyDarkBlue,
-                              HexColor('#6A88E5'),
+                              FitnessAppTheme.nearlyBlue,
                             ],
                             begin: Alignment.topLeft,
                             end: Alignment.bottomRight),

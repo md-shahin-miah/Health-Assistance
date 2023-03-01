@@ -21,16 +21,17 @@ class MealsListData {
       titleTxt: 'Breakfast',
       kacl: 525,
       meals: <String>['Bread,', 'Peanut butter,', 'Apple'],
-      startColor: '#FA7D82',
-      endColor: '#FFB295',
+      startColor: '#6F72CA',
+      endColor: '#1E1466',
+
     ),
     MealsListData(
       imagePath: 'assets/fitness_app/lunch.png',
       titleTxt: 'Lunch',
       kacl: 602,
       meals: <String>['Salmon,', 'Mixed veggies,', 'Avocado'],
-      startColor: '#738AE6',
-      endColor: '#5C5EDD',
+      startColor: '#21883F',
+      endColor: '#79B78B',
     ),
     MealsListData(
       imagePath: 'assets/fitness_app/snack.png',
@@ -45,8 +46,8 @@ class MealsListData {
       titleTxt: 'Dinner',
       kacl: 0,
       meals: <String>['Recommend:', '703 kcal'],
-      startColor: '#6F72CA',
-      endColor: '#1E1466',
+      startColor: '#FA7D82',
+      endColor: '#FFB295',
     ),
   ];
 }
